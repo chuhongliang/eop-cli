@@ -1,0 +1,17 @@
+{
+  "name": "eop-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "start": "nohup node app.js  --env=default --title=eop-web-server --port=3001 &",
+    "stop": "pkill -SIGINT eop-web-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eop": "^1.1.2"
+  }
+}

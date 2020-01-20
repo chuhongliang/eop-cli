@@ -1,0 +1,26 @@
+{
+  "name": "eop-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "eop": "./bin/eop.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuhongliang/eop-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuhongliang/eop-cli/issues"
+  },
+  "homepage": "https://github.com/chuhongliang/eop-cli#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "log4js": "^6.1.0",
+    "underscore": "^1.9.2"
+  }
+}
