@@ -1,8 +1,8 @@
 /**
  * 入口文件
  */
-const _ = require('underscore');
-const cmds = ['create'];
+let _ = require('underscore');
+let cmds = ['create'];
 const runners = [];
 
 _.each(cmds, function (cmd) {
