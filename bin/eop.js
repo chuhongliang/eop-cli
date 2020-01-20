@@ -1,8 +1,10 @@
+#!/usr/bin/env node
+
 /**
  * 入口文件
  */
-let _ = require('underscore');
-let cmds = ['create'];
+const _ = require('underscore');
+const cmds = ['create'];
 const runners = [];
 
 _.each(cmds, function (cmd) {
