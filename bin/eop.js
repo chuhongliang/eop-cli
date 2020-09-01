@@ -55,13 +55,13 @@ const checkArgs = function (args) {
 	}
 }
 
-var args = !(process.argv[0] === 'node' ||
+let args = !(process.argv[0] === 'node' ||
 	process.argv[0] === 'nodejs' ||
 	process.argv[0].match(/node.exe$/) ||
 	process.argv[0].match(/node$/)) ? process.argv : _.last(process.argv, process.argv.length - 1);
 
 checkArgs(args);
-var cmd = args[1];
-var options = _.last(args, args.length - 2);
+let cmd = args[1];
+let options = _.last(args, args.length - 2);
 
 runners[cmd].run(options);
